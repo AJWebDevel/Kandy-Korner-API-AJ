@@ -1,0 +1,195 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Dion Stoade",
+            "email": "dstoade0@cornell.edu",
+            "isStaff": false
+        },
+        {
+            "id": 2,
+            "fullName": "Windy Thorneloe",
+            "email": "wthorneloe1@usa.gov",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "fullName": "Hillie Phillpotts",
+            "email": "hphillpotts2@rakuten.co.jp",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "fullName": "Helenelizabeth Passfield",
+            "email": "hpassfield7@netvibes.com",
+            "isStaff": true
+        },
+        {
+            "id": 5,
+            "fullName": "Franchot Slator",
+            "email": "fslator8@51.la",
+            "isStaff": true
+        },
+        {
+            "email": "jeremy@bakker.com",
+            "fullName": "Jeremy Bakker",
+            "isStaff": true,
+            "id": 6
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "loyaltyStoreId": 1,
+            "loyaltyNumber": 89585
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "loyaltyStoreId": 2,
+            "loyaltyNumber": 63940
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "loyaltyStoreId": 1,
+            "loyaltyNumber": 89758
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 4,
+            "startDate": "1-10-22",
+            "payRate": 25.47,
+            "storeId": 2
+        },
+        {
+            "id": 2,
+            "userId": 5,
+            "startDate": "2-20-22",
+            "payRate": 20.47,
+            "storeId": 1
+        },
+        {
+            "id": 3,
+            "userId": 6,
+            "startDate": "8-14-22",
+            "payRate": 18.47,
+            "storeId": 1
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Sour Punch Straws",
+            "typeId": 1,
+            "pricePerUnit": 2.75,
+            "stores": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Trolli Sour Gummy Worms",
+            "typeId": 1,
+            "pricePerUnit": 2.39,
+            "stores": [
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cookies & Cream Hersey's Bar",
+            "typeId": 4,
+            "pricePerUnit": 4,
+            "stores": [
+                2
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Red Hots",
+            "typeId": 3,
+            "pricePerUnit": false,
+            "stores": []
+        },
+        {
+            "id": 5,
+            "name": "Raisinets",
+            "typeId": 4,
+            "pricePerUnit": 2.25,
+            "stores": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Take 5 Bar",
+            "typeId": 4,
+            "pricePerUnit": 1.55,
+            "stores": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Butterscotch Jelly Bellies",
+            "typeId": 2,
+            "pricePerUnit": 0.15,
+            "stores": [
+                2
+            ]
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "typeName": "sour gummy"
+        },
+        {
+            "id": 2,
+            "typeName": "sweet gummy"
+        },
+        {
+            "id": 3,
+            "typeName": "spicy"
+        },
+        {
+            "id": 4,
+            "typeName": "chocolate"
+        }
+    ],
+    "storeLocations": [
+        {
+            "id": 1,
+            "name": "Stellar Electric",
+            "address": "9921 Street Avenue",
+            "sqFt": 1504
+        },
+        {
+            "id": 2,
+            "name": "Electric 2 Stellar",
+            "address": "224 Shock Way",
+            "sqFt": 3888
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 2,
+            "productId": 4,
+            "productCount": 40
+        },
+        {
+            "id": 7,
+            "customerId": 1,
+            "productId": 7,
+            "productCount": 8009
+        }
+    ]
+}
