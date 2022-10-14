@@ -85,68 +85,46 @@
             "id": 1,
             "name": "Sour Punch Straws",
             "typeId": 1,
-            "pricePerUnit": 2.75,
-            "stores": [
-                1,
-                2
-            ]
+            "pricePerUnit": 2.75
         },
         {
             "id": 2,
             "name": "Trolli Sour Gummy Worms",
             "typeId": 1,
-            "pricePerUnit": 2.39,
-            "stores": [
-                1
-            ]
+            "pricePerUnit": 2.39
         },
         {
             "id": 3,
             "name": "Cookies & Cream Hersey's Bar",
             "typeId": 4,
-            "pricePerUnit": 4,
-            "stores": [
-                2
-            ]
+            "pricePerUnit": 4
         },
         {
             "id": 4,
             "name": "Red Hots",
             "typeId": 3,
-            "pricePerUnit": false,
-            "stores": []
+            "pricePerUnit": 1.50
         },
         {
             "id": 5,
             "name": "Raisinets",
             "typeId": 4,
-            "pricePerUnit": 2.25,
-            "stores": [
-                1,
-                2
-            ]
+            "pricePerUnit": 2.25
         },
         {
             "id": 6,
             "name": "Take 5 Bar",
             "typeId": 4,
-            "pricePerUnit": 1.55,
-            "stores": [
-                1,
-                2
-            ]
+            "pricePerUnit": 1.55
         },
         {
             "id": 7,
             "name": "Butterscotch Jelly Bellies",
             "typeId": 2,
-            "pricePerUnit": 0.15,
-            "stores": [
-                2
-            ]
+            "pricePerUnit": 0.15
         }
     ],
-    "productTypes": [
+    "types": [
         {
             "id": 1,
             "typeName": "sour gummy"
@@ -168,11 +146,13 @@
         {
             "id": 1,
             "name": "Stellar Electric",
+            "imgURL": "https://visitshakopee.org/wp-content/uploads/2015/12/MN-Largest-Candy-Store-Jordan-Minnesota.jpg",
             "address": "9921 Street Avenue",
             "sqFt": 1504
         },
         {
             "id": 2,
+            "imgURL": "",
             "name": "Electric 2 Stellar",
             "address": "224 Shock Way",
             "sqFt": 3888
@@ -182,14 +162,28 @@
         {
             "id": 1,
             "customerId": 2,
-            "productId": 4,
+            "inventoryId": 4,
             "productCount": 40
         },
         {
             "id": 7,
             "customerId": 1,
-            "productId": 7,
+            "inventoryId": 7,
             "productCount": 8009
+        }
+    ],
+    "inventory": [
+        {
+            "id": 1,
+            "storeId": 2,
+            "productId": 4,
+            "productCount": 46
+        },
+        {
+            "id": 2,
+            "storeId": 1,
+            "productId": 7,
+            "productCount": 87
         }
     ]
 }
